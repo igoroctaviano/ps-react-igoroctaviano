@@ -37,7 +37,7 @@ class Example extends Component {
           </a>
         </p>
 
-        {showCode && code}
+        {showCode && code} 
       </div>
     );
   }
