@@ -278,7 +278,7 @@ module.exports = {
             test: cssRegex,
             exclude: cssModuleRegex,
             use: getStyleLoaders({
-              importLoaders: 1,
+              importLoaders: 1
             }),
           },
           // Adds support for CSS Modules (https://github.com/css-modules/css-modules)

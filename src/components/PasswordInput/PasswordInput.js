@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+
 import ProgressBar from 'ps-react-igoroctaviano/ProgressBar';
 import EyeIcon from 'ps-react-igoroctaviano/EyeIcon';
 import TextInput from 'ps-react-igoroctaviano/TextInput';
 
 /** Password input with integrated label, quality tips, and show password toggle. */
-export default class PasswordInput extends React.Component {
+export default class PasswordInput extends Component {
   constructor(props) {
     super(props);
     this.state = {

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+
 import TextInput from 'ps-react-igoroctaviano/TextInput';
 import PasswordInput from 'ps-react-igoroctaviano/PasswordInput';
 
