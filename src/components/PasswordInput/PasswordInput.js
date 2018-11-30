@@ -50,7 +50,7 @@ export default class PasswordInput extends Component {
         {...props}
       >
         {showVisibilityToggle && (
-          <a href="#" onClick={this.toggleShowPassword} style={{ marginLeft: 5 }}>
+          <a href="//#" onClick={this.toggleShowPassword} style={{ marginLeft: 5 }}>
             <EyeIcon />
           </a>
         )}

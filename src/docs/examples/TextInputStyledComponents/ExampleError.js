@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import TextInputCSSModules from 'ps-react-igoroctaviano/TextInputCSSModules';
+
+import TextInputStyledComponents from 'ps-react-igoroctaviano/TextInputStyledComponents';
 
 /** Required TextBox with error */
 export default class ExampleError extends Component {
   render() {
     return (
-      <TextInputCSSModules
+      <TextInputStyledComponents
         htmlId="example-optional"
         label="First Name"
         name="firstname"
